@@ -23,6 +23,7 @@ refs.form.addEventListener('submit', onSearchBtnClick);
 
 async function onSearchBtnClick(e) {
   e.preventDefault();
+  page = 1;
   simpleLightBox.refresh();
   searchInput = refs.input.value.trim();
 
